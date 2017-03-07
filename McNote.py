@@ -471,26 +471,6 @@ class McNote:
         f.write('"\n  composer = "Created By McNote ver. {}"\n'.format(self.version))
         f.write('}\n\n')
 
-    @staticmethod
-    def find_files(directory, pattern, suffix=None, removesuffix=False):
-        files = [f for f in os.listdir(directory) if os.path.isfile(f)]
-        flist = []
-        for f in files:
-            if pattern in f:
-                fn = os.path.splitext(f)
-                if suffix:
-                    if fn[1] == suffix:
-                        if removesuffix:
-                            flist.append(fn[0])
-                        else:
-                            flist.append(f)
-                    continue
-                if removesuffix:
-                    flist.append(fn[0])
-                else:
-                    flist.append(f)
-        return flist
-
     def create_png_files(self):
         self.png_files = []
 
