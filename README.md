@@ -4,7 +4,7 @@ Musical scales from around the world
 Python code for Music Development
 
 Keep your eye on this site. Within the next week I will be adding software
-that will show scores for each of nearly 500 scales from around the world.
+that will show scores for each of over 400 scales from around the world.
 It creates sheet music of each scale in every key. The results can be output
 as lilypond files, .png file or .pdf file.
 
