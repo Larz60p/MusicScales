@@ -12,6 +12,8 @@ This is a work in progress. Inital code was written several years ago while
 I was learning python. You will be able to see improvement from module to
 module as the learning moved forward.
 
+![Alt text](/https://github.com/Larz60p/MusicScales/edit/master/App.png?raw=true "Application Screenshot")
+
 The ultimate goal will be a system that is able to create exercises for music
 instructors that can be used in class.
 
